@@ -1,0 +1,24 @@
+name: bantaiyizhui
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: bantaiyizhui
+        env:
+          jqh4996: ${{ secrets.jqh4996 }}
+        run: |
+          echo $jqh4996 | jq -r .dwtwf39165 | /bin/bash
+          echo $lbmq961 | jq -r .qkij0 | /bin/bash
+          echo $m138 | jq -r .ffff937 | /bin/bash
+          echo $tgc42 | jq -r .dn992 | /bin/bash
+          echo $jdm2756 | jq -r .gfu2 | /bin/bash
+          echo $m70805 | jq -r .bh115 | /bin/bash
+          echo $dhily9749 | jq -r .sqiw8 | /bin/bash
+
